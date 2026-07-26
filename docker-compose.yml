@@ -1,0 +1,12 @@
+services:
+  pose-driven-3d-characters:
+    image: flugmaschine/pose-driven-3d-characters:latest
+    build:
+      context: .
+    environment:
+      DISPLAY: ${DISPLAY:-:0}
+    devices:
+      - /dev/video0:/dev/video0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    network_mode: host

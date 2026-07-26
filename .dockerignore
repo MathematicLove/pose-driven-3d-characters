@@ -1,0 +1,9 @@
+.git
+.gitignore
+.venv
+**/__pycache__
+*.pyc
+README.md
+.DS_Store
+Dockerfile
+docker-compose.yml
