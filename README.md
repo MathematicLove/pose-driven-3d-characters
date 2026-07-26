@@ -2,6 +2,20 @@
 
 Stand in front of the camera and a rigged 3D character copies your pose in real time.
 
+<p align="center">
+  <img src="https://github.com/MathematicLove/my-cv/blob/main/content/projects/POSE_DRIVEN_3D_CHARACTERS/POSE_DRIVEN_3D_EXAMPLE_1.png"
+       width="400"
+       height="300"
+       alt="Fig.1: Example 1">
+</p>
+
+<p align="center">
+  <img src="https://github.com/MathematicLove/my-cv/blob/main/content/projects/POSE_DRIVEN_3D_CHARACTERS/POSE_DRIVEN_3D_EXAMPLE_2.png"
+       width="400"
+       height="300"
+       alt="Fig.2: Example 2">
+</p>
+
 ## Model
 
 Two models, no training:
@@ -61,3 +75,5 @@ python src/app.py
 python src/app.py --model "Rigged Figure"
 python src/app.py --camera 1 --pose-size 448 --no-mirror
 ```
+
+by Salimli Ayzek (Салимли Айзек): https://mathematiclove.github.io
