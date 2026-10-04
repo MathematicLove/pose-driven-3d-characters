@@ -76,4 +76,13 @@ python src/app.py --model "Rigged Figure"
 python src/app.py --camera 1 --pose-size 448 --no-mirror
 ```
 
+## Tests
+
+Unit tests cover the smoothing filters, rotation/skinning math, glTF node matrices and mesh decimation. They need only NumPy and OpenCV (no PyTorch, weights or camera).
+
+```bash
+pip install pytest
+pytest tests
+```
+
 by Salimli Ayzek (Салимли Айзек): https://mathematiclove.github.io
